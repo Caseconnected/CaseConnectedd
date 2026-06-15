@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Sora:wght@400;600;700&display=swap');
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@theme {
+  --font-inter: 'Inter', sans-serif;
+  --font-sora: 'Sora', sans-serif;
+  --color-brand: #1E3A5F;
+  --color-brand-dark: #16325b;
+  --color-accent: #82a0d8;
+}
 
 :root {
   --bg: #FFFFFF;
