@@ -24,7 +24,7 @@ export default function ContactSection() {
       })
       const data = await res.json()
       if (data.success) {
-        setStatus({ message: 'Message received successfully.', color: '#1E3A5F' })
+        setStatus({ message: 'Message sent successfully.', color: '#1E3A5F' })
         form.reset()
       } else {
         setStatus({ message: data.message || 'Unable to send message. Please try again later.', color: '#c05959' })

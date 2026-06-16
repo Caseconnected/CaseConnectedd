@@ -6,9 +6,9 @@ export default function Footer({ text }) {
           <p className="cc-footer-brand">CaseConnected</p>
           <p>{text}</p>
         </div>
-        <div>
+        {/* <div>
           <p>Professional legal & medical administrative support.</p>
-        </div>
+        </div> */}
       </div>
     </footer>
   )

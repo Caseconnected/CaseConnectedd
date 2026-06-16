@@ -21,7 +21,14 @@ export default function Navbar() {
       <div className="cc-container cc-navbar">
 
         <Link href="/" className="cc-logo" onClick={() => setMenuOpen(false)}>
-          <Image src="/logo.png" alt="CaseConnected" width={150} height={40} priority />
+          <Image
+            src="/logo.png"
+            alt="CaseConnected"
+            width={180}
+            height={56}
+            priority
+            className="logo-image"
+          />
         </Link>
 
         <button
