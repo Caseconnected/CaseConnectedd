@@ -69,7 +69,6 @@ export default function ContactSection() {
           <div className="cc-info-block">
             <div className="cc-info-label">US Contact</div>
             <div className="cc-info-value">
-              +1 (805) 765-9111<br />Fax : (818) 671- 5800
             </div>
           </div>
           <div className="cc-info-block">
